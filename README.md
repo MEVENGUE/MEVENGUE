@@ -12,7 +12,7 @@ je suis **MEVENGUE FRANCK**
 
 - 🖥   Je crée du contenu sur Python et Google Colab principalement. 
 
-- ⚡   activité préféré : Football
+- ⚡   activité préférée : Football
 
 - 📫   Comment me joindre ✉️ : mevengueengofranck@gmail.com
 
