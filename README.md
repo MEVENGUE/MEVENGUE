@@ -4,7 +4,7 @@ je suis **MEVENGUE FRANCK**
 
 - 🔭   étudiant en école d'Ingénieur
 
-- 👀   Je m'intéresse à Python, Data Science et Machine Learning .
+- 👀   Je m'intéresse à la programmation , Data Science et Machine Learning .
 
 - 🌱   J'explore actuellement les plateformes d'IA et j'apprends le ML.
 
