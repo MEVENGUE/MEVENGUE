@@ -14,5 +14,5 @@ je suis **MEVENGUE FRANCK**
 
 - ⚡   activité préférée : Football
 
-- 📫   Comment me joindre ✉️ : mevengueengofranck@gmail.com
+
 
