@@ -1,0 +1,302 @@
+{
+  "repo_notes": [
+    {
+      "content": "MEVENGUE est le hub (profil + portfolio) qui relie : site web, dépôts GitHub, démos publiques et documents de présentation.\n\nObjectif : permettre à un recruteur/partenaire de comprendre en 2 minutes qui tu es, en 10 minutes ce que tu sais faire (preuves), et en 30 minutes l’architecture de tes projets phares."
+    },
+    {
+      "content": "Règle éditoriale : chaque projet doit avoir 1) un pitch, 2) un problème résolu, 3) une architecture, 4) un lien repo, 5) une démo, 6) une roadmap.\n\nLangue recommandée : Français (sections courtes en anglais si besoin)."
+    }
+  ],
+  "pages": [
+    {
+      "title": "Overview",
+      "purpose": "Présenter le dépôt MEVENGUE comme hub de profil + portfolio et donner une vue d’ensemble (qui, quoi, où, preuves).",
+      "page_notes": [
+        {
+          "content": "Inclure : TL;DR (3 lignes), liens principaux (site, GitHub, contact), et un bloc « ce que je recherche » (alternance/stage/CDI, domaines, localisation)."
+        }
+      ]
+    },
+    {
+      "title": "Quick Navigation",
+      "purpose": "Fournir une table de navigation orientée recruteur : projets phares, démos, stacks, docs.",
+      "page_notes": [
+        {
+          "content": "3 entrées de lecture : Recruteur, Tech, Recherche/IA. Ajouter liens directs vers repos et démos. Centraliser les preuves (captures, schémas, README, badges)."
+        }
+      ]
+    },
+    {
+      "title": "Profile Information",
+      "purpose": "Documenter l’identité, le positionnement, et les éléments biographiques utiles.",
+      "page_notes": [
+        {
+          "content": "Résumé (3 lignes) + tagline. Localisation et disponibilité. Valeurs : rigueur, documentation, sécurité, apprentissage continu."
+        }
+      ]
+    },
+    {
+      "title": "Academic & Professional Journey",
+      "purpose": "Décrire le parcours académique et l’expérience pro pertinente.",
+      "parent": "Profile Information",
+      "page_notes": [
+        {
+          "content": "Formation : SUPINFO (Master Architecture Cloud, Systèmes & Réseaux), ECAM-EPMI (Ingénieur SI/Réseaux intelligents). Expérience : automatisation/scripting (Python), environnements entreprise."
+        }
+      ]
+    },
+    {
+      "title": "Values & Philosophy",
+      "purpose": "Expliquer la philosophie MEVENGUE : preuve, architecture, itérations rapides, sécurité/éthique.",
+      "parent": "Profile Information",
+      "page_notes": [
+        {
+          "content": "Proof-driven (démos + README + schémas). Secure by design (RGPD/ISO27001 au niveau process/architecture). Learning loop (Anki/NotebookLM/Colab)."
+        }
+      ]
+    },
+    {
+      "title": "Personal Interests & Sports",
+      "purpose": "Relier les activités sportives au volet analytique : data, visualisation, IA appliquée.",
+      "parent": "Profile Information",
+      "page_notes": [
+        {
+          "content": "Football : scouting, tactique, data viz, outils IA. Objectif : transformer en produits (dashboards, radars, assistants)."
+        }
+      ]
+    },
+    {
+      "title": "Portfolio System Architecture",
+      "purpose": "Décrire comment le système de portfolio s’organise : site, GitHub, démos, docs, boucle de mise à jour.",
+      "page_notes": [
+        {
+          "content": "Schéma : Website (Vercel) ↔ GitHub repos ↔ Démos ↔ stockage objet (ex: R2). Convention : repo source + démo + doc + changelog."
+        }
+      ]
+    },
+    {
+      "title": "External Presence (Website + GitHub)",
+      "purpose": "Fusionner la doc du site web et du README GitHub : rôle, contenu, bonnes pratiques, cohérence.",
+      "parent": "Portfolio System Architecture",
+      "page_notes": [
+        {
+          "content": "Site : pages Home/Projets/Lab/Contact. README GitHub : même structure que le site. Ajouter badges (CI/licence/démo) et section « What I’m building now »."
+        }
+      ]
+    },
+    {
+      "title": "Demos & Deployments",
+      "purpose": "Centraliser toutes les démos et conventions (URLs, variables, secrets).",
+      "parent": "Portfolio System Architecture",
+      "page_notes": [
+        {
+          "content": "Tableau : Projet → Démo → Repo → Stack → Statut. Bonnes pratiques : .env.example, secrets, logs, monitoring."
+        }
+      ]
+    },
+    {
+      "title": "Project Portfolio",
+      "purpose": "Créer l’index des projets par catégories avec liens repo + démos + tags techniques.",
+      "page_notes": [
+        {
+          "content": "Catégories : Cloud/DevOps, IA/RAG/Agents, Web 3D, Football Analytics, Computer Vision, Collections académiques. Chaque projet : pitch, tech, repo, démo, architecture, learnings."
+        }
+      ]
+    },
+    {
+      "title": "Cloud & DevOps Projects",
+      "purpose": "Regrouper les projets infra : stockage cloud, Kubernetes, monitoring/observabilité, automatisation.",
+      "parent": "Project Portfolio",
+      "page_notes": [
+        {
+          "content": "Inclure : SUPFile, K8S, Zabbix (K8S/VM)."
+        }
+      ]
+    },
+    {
+      "title": "SUPFile — Secure Cloud File Storage",
+      "purpose": "Décrire SUPFile : stockage sécurisé, flux, auth, déploiement.",
+      "parent": "Cloud & DevOps Projects",
+      "page_notes": [
+        {
+          "content": "Repo : https://github.com/MEVENGUE/SUPFile-app | Démo : https://supfile-webapp.vercel.app. Ajouter schéma séquence upload/download, sécurité (auth/ACL), roadmap."
+        }
+      ]
+    },
+    {
+      "title": "Kubernetes Fleetman Cluster",
+      "purpose": "Documenter le projet Kubernetes : cluster, réseau, stockage, déploiements.",
+      "parent": "Cloud & DevOps Projects",
+      "page_notes": [
+        {
+          "content": "Repo : https://github.com/MEVENGUE/K8S. Ajouter : manifests, namespaces, probes, persistance, ingress, checklist prod-like (RBAC, quotas, autoscaling)."
+        }
+      ]
+    },
+    {
+      "title": "Observability with Zabbix",
+      "purpose": "Supervision Zabbix (K8S + VM) : discovery, dashboards, alerting, procédures.",
+      "parent": "Cloud & DevOps Projects",
+      "page_notes": [
+        {
+          "content": "Repo : https://github.com/MEVENGUE/supervision-Projet-K8S-Zabbix. Inclure templates, items/triggers, dashboards, onboarding d’un node, dépannage."
+        }
+      ]
+    },
+    {
+      "title": "AI, RAG & Agents Projects",
+      "purpose": "Regrouper les projets IA : assistants RAG, agents, raisonnement, automatisation.",
+      "parent": "Project Portfolio",
+      "page_notes": [
+        {
+          "content": "Inclure : SUPINFO MentorGPT (RAG), Graph Reasoning Engine."
+        }
+      ]
+    },
+    {
+      "title": "SUPINFO MentorGPT — Academic RAG Assistant",
+      "purpose": "Décrire l’assistant IA : ingestion docs, recherche sémantique, chat, auth, dashboard.",
+      "parent": "AI, RAG & Agents Projects",
+      "page_notes": [
+        {
+          "content": "Repo : https://github.com/MEVENGUE/SUPINFO-MentorGPT | Démo : https://supinfo-mentor-ai.vercel.app. Ajouter schéma RAG, endpoints, sécurité (OAuth/roles), roadmap."
+        }
+      ]
+    },
+    {
+      "title": "Graph Reasoning Engine",
+      "purpose": "Documenter le framework de raisonnement structurel : core engine, visualisation, exercices.",
+      "parent": "AI, RAG & Agents Projects",
+      "page_notes": [
+        {
+          "content": "Repo : https://github.com/MEVENGUE/Graph-Reasoning-Engine. Inclure structure des dossiers, serveur de visualisation, comment contribuer."
+        }
+      ]
+    },
+    {
+      "title": "3D & Immersive Web Projects",
+      "purpose": "Regrouper les projets web 3D : Three.js/R3F, interactions, WebXR.",
+      "parent": "Project Portfolio",
+      "page_notes": [
+        {
+          "content": "Inclure : 3D Canvas (hand tracking + catalogue GLB + chat)."
+        }
+      ]
+    },
+    {
+      "title": "3D Canvas — Interact with the Future",
+      "purpose": "Décrire l’expérience 3D : contrôle gestuel, viewer 3D, assets, UI futuriste.",
+      "parent": "3D & Immersive Web Projects",
+      "page_notes": [
+        {
+          "content": "Repo : https://github.com/MEVENGUE/3D-Canvas-presentation | Démo : https://3-d-canvas-app.vercel.app. Stack : Next.js, R3F, Drei, Zustand, Tailwind, Framer Motion. Assets : Cloudflare R2."
+        }
+      ]
+    },
+    {
+      "title": "Football Analytics Projects",
+      "purpose": "Regrouper les projets football : data viz, scouting, modèles et outils IA.",
+      "parent": "Project Portfolio",
+      "page_notes": [
+        {
+          "content": "Inclure : X-scout (IA + scraping + globe 3D), Radar Coach (profil tactique)."
+        }
+      ]
+    },
+    {
+      "title": "X-scout — AI Scouting Dashboard",
+      "purpose": "Documenter X-scout : scraping, enrichissement IA, visualisation 3D, rapports.",
+      "parent": "Football Analytics Projects",
+      "page_notes": [
+        {
+          "content": "Repo : https://github.com/MEVENGUE/Outils-IA-pour-scouting-football- | Démo : https://scoutfootballai-siteweb.vercel.app. Inclure architecture, limites (anti-bot), roadmap (caching, analytics)."
+        }
+      ]
+    },
+    {
+      "title": "Radar Tactique — Coach Profile",
+      "purpose": "Documenter le radar tactique : axes, scoring, génération, exemples.",
+      "parent": "Football Analytics Projects",
+      "page_notes": [
+        {
+          "content": "Repo : https://github.com/MEVENGUE/Radar-Tactique-Profil-Coach-Football. Inclure méthodologie, exemples, export PNG/PDF, templates."
+        }
+      ]
+    },
+    {
+      "title": "Computer Vision Projects",
+      "purpose": "Regrouper les prototypes CV (hand tracking, interfaces gestuelles) et lister les démos.",
+      "parent": "Project Portfolio",
+      "page_notes": [
+        {
+          "content": "Inclure Virtual Mouse et autres expérimentations liées aux interactions."
+        }
+      ]
+    },
+    {
+      "title": "Academic Projects Collection (Projet_ING)",
+      "purpose": "Présenter Projet_ING comme collection multi-domaines (IoT, cyber, cloud, data, gestion de projet).",
+      "parent": "Project Portfolio",
+      "page_notes": [
+        {
+          "content": "Repo : https://github.com/MEVENGUE/Projet_ING. Index par dossiers + tags + best-of (3 à 5 sous-projets)."
+        }
+      ]
+    },
+    {
+      "title": "Skills Map & Tech Stack",
+      "purpose": "Cartographier les compétences avec preuves (liens projets).",
+      "page_notes": [
+        {
+          "content": "Compétence → outils → projets preuves. Cloud/DevOps (K8S/Zabbix/SUPFile), Backend (Python/FastAPI), Front (React/Next/TS), IA (RAG/agents), 3D (Three.js/R3F)."
+        }
+      ]
+    },
+    {
+      "title": "Workflow & Tooling",
+      "purpose": "Décrire le workflow : Git/GitHub, conventions, docs, CI, outils.",
+      "parent": "Skills Map & Tech Stack",
+      "page_notes": [
+        {
+          "content": "Standard : README → docs/ → diagrams/ → scripts/. Outils : Cursor, Colab, NotebookLM, Vercel/Railway. Qualité : lint, format, tests basiques."
+        }
+      ]
+    },
+    {
+      "title": "Learning & Development System",
+      "purpose": "Décrire le système d’apprentissage continu : objectifs, méthodes, domaines explorés.",
+      "page_notes": [
+        {
+          "content": "Méthodes : Anki, projets concrets, notes structurées. Axes : Cloud/DevOps, IA (RAG/agents), football analytics. Output : démos + notebooks."
+        }
+      ]
+    },
+    {
+      "title": "Security, Privacy & Compliance",
+      "purpose": "Expliquer l’approche sécurité : principes, contrôles, liens RGPD/ISO27001.",
+      "page_notes": [
+        {
+          "content": "Règles : secrets, auth, gestion accès, journalisation, sauvegardes. Appliquer à SUPFile et MentorGPT. Ajouter checklist sécurité (OWASP, infra, data)."
+        }
+      ]
+    },
+    {
+      "title": "Collaboration & Open Source",
+      "purpose": "Décrire comment contribuer : issues, PRs, conventions, axes de contributions souhaités.",
+      "page_notes": [
+        {
+          "content": "Templates issue/PR, guidelines, code style. Contributions : docs, tests, features, refactor, traductions. Guide d’exécution local par projet."
+        }
+      ]
+    },
+    {
+      "title": "Contact & Links",
+      "purpose": "Donner les liens de contact et le message d’ouverture pour opportunités.",
+      "page_notes": [
+        {
+          "content": "Site : https://mevenguefranck-siteweb.vercel.app (Contact). Ajouter CV PDF et disponibilité."
+        }
+      ]
+    }
+  ]
+}
