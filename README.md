@@ -12,9 +12,9 @@ je suis **MEVENGUE FRANCK**
 
 - 🖥   Je crée du contenu sur Python et Google Colab principalement. 
 
-- ⚡   activité préférée : Football, Basket-ball, Course à pied.
+- ⚡  activité préférée : Football, Basket-ball, Course à pied.
 
-- 🔗   Site Web : [mevenguefranck-siteweb.fr](https://mevenguefranck-siteweb.vercel.app/)
+- 🔗  Site Web : [mevenguefranck-siteweb.fr](https://mevenguefranck-siteweb.vercel.app/)
 
 
 
