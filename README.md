@@ -19,6 +19,6 @@ je suis **MEVENGUE FRANCK**
 
 
 
-[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/MEVENGUE/MEVENGUE)
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/MEVENGUE/MEVENGUE/preview/65c5246389ff)
 
 
