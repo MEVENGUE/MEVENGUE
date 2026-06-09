@@ -28,12 +28,14 @@ Les applications réelles (SUPFile, MentorGPT, 3D Canvas, etc.) vivent dans des 
 ### Validation locale (équivalent lint/test)
 
 ```bash
-# Valider le JSON du wiki
-python3 -m json.tool .devin/wiki.json > /dev/null
+# Validation complète README + wiki
+python3 scripts/validate.py
 
-# Vérifier la présence du contenu clé du profil
-grep -q "MEVENGUE FRANCK" README.md
+# Validation JSON seule
+python3 -m json.tool .devin/wiki.json > /dev/null
 ```
+
+Le workflow CI `.github/workflows/validate-profile.yml` exécute ces contrôles sur chaque push/PR.
 
 ### Démos et sites hébergés (externes)
 

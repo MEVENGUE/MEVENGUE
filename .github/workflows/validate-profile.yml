@@ -1,0 +1,19 @@
+name: Validate Profile Hub
+
+on:
+  push:
+    branches: [main, "cursor/**"]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate README and wiki.json
+        run: python3 scripts/validate.py
+
+      - name: Validate wiki JSON syntax
+        run: python3 -m json.tool .devin/wiki.json > /dev/null

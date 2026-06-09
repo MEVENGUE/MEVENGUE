@@ -1,275 +1,299 @@
 {
+  "version": "2.0",
+  "last_updated": "2026-06-09",
+  "locale": "fr-FR",
+  "owner": {
+    "name": "MEVENGUE FRANCK",
+    "tagline": "Cloud · DevOps · IA · Architecture résiliente",
+    "location": "Paris, France",
+    "availability": "Disponible pour alternance, stage ou mission technique",
+    "email": "mevengue.franck@supinfo.com",
+    "website": "https://mevenguefranck-siteweb.vercel.app/",
+    "github": "https://github.com/MEVENGUE",
+    "deepwiki": "https://deepwiki.com/MEVENGUE/MEVENGUE"
+  },
   "repo_notes": [
     {
-      "content": "MEVENGUE est le hub (profil + portfolio) qui relie : site web, dépôts GitHub, démos publiques et documents de présentation.\n\nObjectif : permettre à un recruteur/partenaire de comprendre en 2 minutes qui tu es, en 10 minutes ce que tu sais faire (preuves), et en 30 minutes l’architecture de tes projets phares."
+      "content": "MEVENGUE est le hub central (profil GitHub + wiki + site web) qui relie l'identité professionnelle, les dépôts, les démos publiques et la documentation d'architecture.\n\nObjectif recruteur : comprendre en 2 min qui tu es, en 10 min ce que tu sais faire (preuves), en 30 min l'architecture de tes projets phares."
     },
     {
-      "content": "Règle éditoriale : chaque projet doit avoir 1) un pitch, 2) un problème résolu, 3) une architecture, 4) un lien repo, 5) une démo, 6) une roadmap.\n\nLangue recommandée : Français (sections courtes en anglais si besoin)."
+      "content": "Règle éditoriale : chaque projet DOIT avoir — 1) pitch (1 phrase), 2) problème résolu, 3) architecture (schéma ou description), 4) lien repo, 5) démo live si applicable, 6) roadmap.\n\nLangue : Français principal, termes techniques en anglais."
     }
+  ],
+  "projects_index": [
+    {
+      "id": "supfile",
+      "name": "SUPFile",
+      "category": "Cloud & DevOps",
+      "status": "production",
+      "repo": "https://github.com/MEVENGUE/SUPFile-app",
+      "demo": "https://supfile-webapp.vercel.app",
+      "stack": ["FastAPI", "React", "Kubernetes", "Galera", "GlusterFS", "HAProxy", "Prometheus", "Grafana"],
+      "pitch": "Stockage cloud sécurisé multi-datacenter avec haute disponibilité active/active."
+    },
+    {
+      "id": "mentorgpt",
+      "name": "SUPINFO MentorGPT",
+      "category": "IA & RAG",
+      "status": "production",
+      "repo": "https://github.com/MEVENGUE/SUPINFO-MentorGPT",
+      "demo": "https://supinfo-mentor-ai.vercel.app",
+      "stack": ["Next.js", "FastAPI", "TypeScript", "Python", "ChromaDB", "OpenAI", "OAuth"],
+      "pitch": "Assistant IA académique RAG pour SUPINFO avec recherche sémantique sur 99+ documents."
+    },
+    {
+      "id": "3d-canvas",
+      "name": "3D Canvas",
+      "category": "Web 3D & CV",
+      "status": "production",
+      "repo": "https://github.com/MEVENGUE/3D-Canvas-presentation",
+      "demo": "https://3-d-canvas-app.vercel.app",
+      "stack": ["Next.js", "Three.js", "React Three Fiber", "MediaPipe", "Zustand", "Tailwind", "Cloudflare R2"],
+      "pitch": "Expérience immersive de manipulation 3D par gestes avec catalogue d'assets et chat IA."
+    },
+    {
+      "id": "x-scout",
+      "name": "X-Scout",
+      "category": "Football Analytics",
+      "status": "beta",
+      "repo": "https://github.com/MEVENGUE/Outils-IA-pour-scouting-football-",
+      "demo": "https://scoutfootballai-siteweb.vercel.app",
+      "stack": ["Python", "Next.js", "LLM", "Web Scraping", "Three.js"],
+      "pitch": "Dashboard scouting football augmenté par IA avec globe 3D et rapports automatisés."
+    },
+    {
+      "id": "k8s-fleetman",
+      "name": "Kubernetes Fleetman",
+      "category": "Cloud & DevOps",
+      "status": "stable",
+      "repo": "https://github.com/MEVENGUE/K8S",
+      "demo": null,
+      "stack": ["Kubernetes", "Docker", "Spring Boot", "MongoDB", "Nginx"],
+      "pitch": "Cluster Kubernetes HA avec microservices Fleetman, StatefulSets et networking complet."
+    },
+    {
+      "id": "zabbix-k8s",
+      "name": "Zabbix Supervision K8S",
+      "category": "Cloud & DevOps",
+      "status": "stable",
+      "repo": "https://github.com/MEVENGUE/supervision-Projet-K8S-Zabbix",
+      "demo": null,
+      "stack": ["Zabbix", "Kubernetes", "Prometheus", "Grafana"],
+      "pitch": "Brique de supervision complète autour du cluster Kubernetes avec templates et alerting."
+    },
+    {
+      "id": "graph-reasoning",
+      "name": "Graph Reasoning Engine",
+      "category": "IA & RAG",
+      "status": "active",
+      "repo": "https://github.com/MEVENGUE/Graph-Reasoning-Engine",
+      "demo": null,
+      "stack": ["Python", "Graph Theory", "Agents Autonomes"],
+      "pitch": "Framework de raisonnement structurel par graphes pour agents autonomes — 6 exercices DevOps."
+    },
+    {
+      "id": "radar-tactique",
+      "name": "Radar Tactique Coach",
+      "category": "Football Analytics",
+      "status": "stable",
+      "repo": "https://github.com/MEVENGUE/Radar-Tactique-Profil-Coach-Football",
+      "demo": null,
+      "stack": ["Python", "Matplotlib", "Data Viz"],
+      "pitch": "Génération de diagrammes radar tactiques pour profils d'entraîneurs avec export PNG/PDF."
+    },
+    {
+      "id": "virtual-mouse",
+      "name": "Virtual Mouse",
+      "category": "Computer Vision",
+      "status": "prototype",
+      "repo": "https://github.com/MEVENGUE/Virtual_Mouse_Python",
+      "demo": null,
+      "stack": ["Python", "OpenCV", "MediaPipe"],
+      "pitch": "Contrôle souris par gestes de la main via computer vision."
+    },
+    {
+      "id": "projet-ing",
+      "name": "Projet_ING",
+      "category": "Académique",
+      "status": "archive",
+      "repo": "https://github.com/MEVENGUE/Projet_ING",
+      "demo": null,
+      "stack": ["IoT", "Cyber", "Cloud", "Data", "Shell"],
+      "pitch": "Collection multi-domaines de projets académiques (IoT, cybersécurité, cloud, data)."
+    }
+  ],
+  "demos_table": [
+    {"project": "Site Portfolio", "demo": "https://mevenguefranck-siteweb.vercel.app/", "repo": "https://github.com/MEVENGUE/mevengue-siteweb.com", "stack": "Next.js · Vercel", "status": "live"},
+    {"project": "SUPFile", "demo": "https://supfile-webapp.vercel.app", "repo": "https://github.com/MEVENGUE/SUPFile-app", "stack": "FastAPI · React · K8s", "status": "live"},
+    {"project": "MentorGPT", "demo": "https://supinfo-mentor-ai.vercel.app", "repo": "https://github.com/MEVENGUE/SUPINFO-MentorGPT", "stack": "Next.js · FastAPI · RAG", "status": "live"},
+    {"project": "3D Canvas", "demo": "https://3-d-canvas-app.vercel.app", "repo": "https://github.com/MEVENGUE/3D-Canvas-presentation", "stack": "Next.js · Three.js · R3F", "status": "live"},
+    {"project": "X-Scout", "demo": "https://scoutfootballai-siteweb.vercel.app", "repo": "https://github.com/MEVENGUE/Outils-IA-pour-scouting-football-", "stack": "Python · Next.js · IA", "status": "beta"}
+  ],
+  "skills_map": [
+    {"skill": "Cloud Architecture", "level": 90, "tools": ["AWS", "Azure", "GCP", "VPC", "IAM"], "proof_projects": ["supfile", "k8s-fleetman"]},
+    {"skill": "DevOps / CI-CD", "level": 95, "tools": ["GitHub Actions", "Docker", "Terraform", "GitOps"], "proof_projects": ["k8s-fleetman", "supfile"]},
+    {"skill": "Infrastructure as Code", "level": 85, "tools": ["Terraform", "Kubernetes Manifests", "Helm"], "proof_projects": ["k8s-fleetman"]},
+    {"skill": "Observabilité", "level": 80, "tools": ["Prometheus", "Grafana", "Zabbix"], "proof_projects": ["zabbix-k8s", "supfile"]},
+    {"skill": "IA & Data Engineering", "level": 75, "tools": ["RAG", "ChromaDB", "OpenAI", "Python", "FastAPI"], "proof_projects": ["mentorgpt", "graph-reasoning", "x-scout"]},
+    {"skill": "Frontend & 3D", "level": 80, "tools": ["Next.js", "React", "Three.js", "Tailwind"], "proof_projects": ["3d-canvas", "mentorgpt"]},
+    {"skill": "Computer Vision", "level": 70, "tools": ["MediaPipe", "OpenCV"], "proof_projects": ["3d-canvas", "virtual-mouse"]},
+    {"skill": "Football Analytics", "level": 75, "tools": ["Python", "Data Viz", "LLM"], "proof_projects": ["x-scout", "radar-tactique"]}
   ],
   "pages": [
     {
       "title": "Overview",
-      "purpose": "Présenter le dépôt MEVENGUE comme hub de profil + portfolio et donner une vue d’ensemble (navigation incluse).",
-      "page_notes": [
-        {
-          "content": "Inclure : TL;DR (3 lignes), liens principaux (site, GitHub, contact), bloc « ce que je recherche », et une mini-table de navigation (Featured projects + Skills + Contact)."
-        }
-      ]
+      "purpose": "Vue d'ensemble du hub MEVENGUE — navigation, TL;DR, liens principaux.",
+      "content": "## TL;DR\n\n**MEVENGUE FRANCK** — étudiant Master Architecture Cloud @ SUPINFO Paris. Je construis des infrastructures cloud natives, j'automatise les déploiements et j'explore l'IA appliquée (RAG, agents, computer vision).\n\n## Navigation rapide\n\n| Section | Contenu |\n|---------|--------|\n| [Projets phares](#project-portfolio) | SUPFile, MentorGPT, 3D Canvas, X-Scout |\n| [Compétences](#skills-map--tech-stack) | Cloud, DevOps, IA, 3D, Football Analytics |\n| [Démos](#demos--deployments) | 5 démos live sur Vercel |\n| [Contact](#contact-collaboration--links) | Email, site, GitHub |\n\n## Ce que je recherche\n\n- Alternance / stage Cloud & DevOps en Île-de-France\n- Collaborations open source (infra, IA, data sportive)\n- Missions techniques : Kubernetes, AWS, observabilité, RAG\n\n## Liens principaux\n\n- Site : https://mevenguefranck-siteweb.vercel.app/\n- GitHub : https://github.com/MEVENGUE\n- DeepWiki : https://deepwiki.com/MEVENGUE/MEVENGUE\n- Email : mevengue.franck@supinfo.com"
     },
     {
       "title": "Profile Information",
-      "purpose": "Documenter l’identité, le positionnement, et les éléments biographiques utiles.",
-      "page_notes": [
-        {
-          "content": "Résumé (3 lignes) + tagline. Localisation et disponibilité. Valeurs : rigueur, documentation, sécurité, apprentissage continu."
-        }
-      ]
+      "purpose": "Identité, positionnement et éléments biographiques.",
+      "content": "## Identité\n\n- **Nom** : MEVENGUE FRANCK\n- **Tagline** : Je construis l'infrastructure de demain\n- **Localisation** : Paris, France\n- **Disponibilité** : Alternance, stage, mission technique\n\n## Positionnement\n\nCloud engineer en devenir — spécialisé en architecture cloud native, automatisation DevOps et IA appliquée à l'ingénierie. Mon approche est **proof-driven** : chaque compétence est démontrée par un projet avec démo live et documentation.\n\n## Valeurs\n\n1. **Rigueur** — documentation, tests, conventions\n2. **Sécurité** — auth, ACL, RGPD, mindset ISO 27001\n3. **Apprentissage continu** — Anki, NotebookLM, Colab, veille technique\n4. **Itérations rapides** — MVP → démo → feedback → amélioration"
     },
     {
       "title": "Academic & Professional Journey",
-      "purpose": "Décrire le parcours académique et l’expérience pro pertinente.",
+      "purpose": "Parcours académique et expérience professionnelle.",
       "parent": "Profile Information",
-      "page_notes": [
-        {
-          "content": "Formation : SUPINFO (Master Architecture Cloud, Systèmes & Réseaux), ECAM-EPMI (Ingénieur SI/Réseaux intelligents). Expérience : automatisation/scripting (Python), environnements entreprise."
-        }
-      ]
+      "content": "## Formation\n\n### Master Architecture Cloud, Systèmes & Réseaux — SUPINFO Paris (2024–2026)\n\nProjets capstone :\n- **SUPFile Multi-DC** — Galera, GlusterFS, HAProxy, Prometheus\n- **Kubernetes Fleetman** — cluster HA, microservices, StatefulSets\n- **AWS Cloud Architect** — VPC, IAM, EC2 HA, Auto Scaling, S3\n- **Advanced Linux** — SELinux, AppArmor, auditd, BorgBackup\n\n### Ingénieur SI & Réseaux Intelligents — ECAM-EPMI (2021–2024)\n\nFondations : réseaux, systèmes, programmation, gestion de projet.\n\n## Expérience\n\n- Automatisation et scripting Python en environnement entreprise\n- Déploiement et supervision d'infrastructures (VM, K8s)\n- Participation à 5+ hackathons\n- Création de contenu technique (Python, Google Colab)"
     },
     {
       "title": "Values & Philosophy",
-      "purpose": "Expliquer la philosophie MEVENGUE : preuve, architecture, itérations rapides, sécurité/éthique.",
+      "purpose": "Philosophie MEVENGUE : preuve, architecture, sécurité, éthique.",
       "parent": "Profile Information",
-      "page_notes": [
-        {
-          "content": "Proof-driven (démos + README + schémas). Secure by design (RGPD/ISO27001 au niveau process/architecture). Learning loop (Anki/NotebookLM/Colab)."
-        }
-      ]
+      "content": "## Proof-driven\n\nChaque affirmation de compétence est soutenue par :\n- Un dépôt GitHub avec README structuré\n- Une démo live quand c'est possible\n- Un schéma d'architecture ou une description technique\n\n## Secure by design\n\n- Secrets jamais commités (.env.example systématique)\n- Authentification et gestion des rôles (OAuth sur MentorGPT)\n- ACL et chiffrement sur SUPFile\n- Conformité RGPD et mindset ISO 27001 au niveau process\n- Checklist OWASP pour les applications web\n\n## Learning loop\n\n1. Identifier un problème réel\n2. Prototyper rapidement (MVP)\n3. Documenter l'architecture\n4. Déployer une démo\n5. Itérer avec feedback\n\nOutils : Cursor, Colab, NotebookLM, Anki."
     },
     {
       "title": "Personal Interests & Sports",
-      "purpose": "Relier les activités sportives au volet analytique : data, visualisation, IA appliquée.",
+      "purpose": "Activités sportives liées à la data et l'IA.",
       "parent": "Profile Information",
-      "page_notes": [
-        {
-          "content": "Football : scouting, tactique, data viz, outils IA. Objectif : transformer en produits (dashboards, radars, assistants)."
-        }
-      ]
+      "content": "## Sports\n\n- **Football** — passion principale, scouting, tactique, data\n- **Basket-ball** — suivi et analyse\n- **Course à pied** — endurance et discipline\n\n## Lien avec la tech\n\nLe football est un terrain d'expérimentation pour mes projets data :\n- **X-Scout** — dashboard scouting IA avec globe 3D\n- **Radar Tactique** — profils d'entraîneurs en visualisation radar\n- Objectif : transformer cette passion en produits (dashboards, assistants IA, radars)\n\n## Contenu créé\n\nTutoriels Python et notebooks Google Colab sur l'informatique et la data appliquée au sport."
     },
     {
       "title": "Portfolio System Architecture",
-      "purpose": "Décrire comment le système de portfolio s’organise : site, GitHub, démos, docs, boucle de mise à jour.",
-      "page_notes": [
-        {
-          "content": "Schéma : Website (Vercel) ↔ GitHub repos ↔ Démos ↔ stockage objet (ex: R2). Convention : repo source + démo + doc + changelog."
-        }
-      ]
+      "purpose": "Organisation du système portfolio : site, GitHub, démos, docs.",
+      "content": "## Architecture du hub\n\n```\n┌─────────────────┐     ┌──────────────────┐     ┌─────────────────┐\n│  Site Vercel    │◄───►│  GitHub Repos    │◄───►│  Démos Vercel   │\n│  (portfolio)    │     │  (source code)   │     │  (live apps)    │\n└────────┬────────┘     └────────┬─────────┘     └────────┬────────┘\n         │                         │                          │\n         └─────────────────────────┼──────────────────────────┘\n                                   ▼\n                    ┌──────────────────────────┐\n                    │  MEVENGUE/MEVENGUE Hub   │\n                    │  README + wiki.json      │\n                    └──────────────────────────┘\n                                   │\n                                   ▼\n                    ┌──────────────────────────┐\n                    │  Cloudflare R2 (assets)  │\n                    │  ChromaDB (vecteurs)     │\n                    └──────────────────────────┘\n```\n\n## Convention par projet\n\nChaque projet suit : `repo source` + `démo` + `docs/` + `changelog` + `.env.example`\n\n## Boucle de mise à jour\n\n1. Développer dans le repo source\n2. Déployer sur Vercel/Railway/K8s\n3. Mettre à jour le README du repo\n4. Synchroniser ce hub (README profil + wiki.json)\n5. Mettre à jour le site portfolio"
     },
     {
       "title": "External Presence (Website + GitHub)",
-      "purpose": "Fusionner la doc du site web et du README GitHub : rôle, contenu, bonnes pratiques, cohérence.",
+      "purpose": "Cohérence entre site web et profil GitHub.",
       "parent": "Portfolio System Architecture",
-      "page_notes": [
-        {
-          "content": "Site : pages Home/Projets/Lab/Contact. README GitHub : même structure que le site. Ajouter badges (CI/licence/démo) et section « What I’m building now »."
-        }
-      ]
+      "content": "## Site web — mevenguefranck-siteweb.vercel.app\n\nPages : Home · Projets · Lab · À propos · Contact\n\nContenu : hero 3D, statistiques, projets récents, stack technique, citation, CTA collaboration.\n\n## Profil GitHub — MEVENGUE/MEVENGUE\n\nCe dépôt sert de README de profil public. Structure :\n- Header animé (Capsule Render + typing SVG)\n- Projets phares en tableau\n- Stack technique (badges Shields.io)\n- Stats GitHub dynamiques\n- Section collaboration\n\n## Cohérence éditoriale\n\nLes deux surfaces partagent : tagline, projets phares, stack, disponibilité, contact.\n\n## Section « En ce moment »\n\nMise à jour trimestrielle des projets en cours pour signaler l'activité."
     },
     {
       "title": "Demos & Deployments",
-      "purpose": "Centraliser toutes les démos et conventions (URLs, variables, secrets).",
+      "purpose": "Centraliser démos, conventions et bonnes pratiques de déploiement.",
       "parent": "Portfolio System Architecture",
-      "page_notes": [
-        {
-          "content": "Tableau : Projet → Démo → Repo → Stack → Statut. Bonnes pratiques : .env.example, secrets, logs, monitoring."
-        }
-      ]
+      "content": "## Tableau des démos\n\n| Projet | Démo | Repo | Stack | Statut |\n|--------|------|------|-------|--------|\n| Site Portfolio | mevenguefranck-siteweb.vercel.app | mevengue-siteweb.com | Next.js | live |\n| SUPFile | supfile-webapp.vercel.app | SUPFile-app | FastAPI · React | live |\n| MentorGPT | supinfo-mentor-ai.vercel.app | SUPINFO-MentorGPT | Next.js · RAG | live |\n| 3D Canvas | 3-d-canvas-app.vercel.app | 3D-Canvas-presentation | Three.js · R3F | live |\n| X-Scout | scoutfootballai-siteweb.vercel.app | Outils-IA-scouting | Python · IA | beta |\n\n## Conventions de déploiement\n\n- `.env.example` dans chaque repo\n- Secrets via variables d'environnement (Vercel, Railway, K8s secrets)\n- Logs structurés et monitoring (Prometheus/Grafana ou Zabbix)\n- Health checks et probes sur les services K8s\n- HTTPS obligatoire sur toutes les démos publiques"
     },
     {
       "title": "Project Portfolio",
-      "purpose": "Créer l’index des projets par catégories avec liens repo + démos + tags techniques.",
-      "page_notes": [
-        {
-          "content": "Catégories : Cloud/DevOps, IA/RAG/Agents, Web 3D, Football Analytics, Computer Vision, Collections académiques. Chaque projet : pitch, tech, repo, démo, architecture, learnings."
-        }
-      ]
+      "purpose": "Index des projets par catégories avec liens et tags.",
+      "content": "## Catégories\n\n1. **Cloud & DevOps** — SUPFile, K8S Fleetman, Zabbix\n2. **IA & RAG** — MentorGPT, Graph Reasoning Engine, 4CHGM\n3. **Web 3D & CV** — 3D Canvas, Virtual Mouse\n4. **Football Analytics** — X-Scout, Radar Tactique\n5. **Académique** — Projet_ING (collection multi-domaines)\n\n## Format par projet\n\nChaque fiche projet contient : pitch · problème · architecture · repo · démo · stack · statut · roadmap · learnings.\n\n## Statistiques portfolio\n\n- 15+ projets réalisés\n- 50K+ lignes de code\n- 25+ technologies\n- 5 démos live\n- 100+ dépôts GitHub publics"
     },
     {
       "title": "Cloud & DevOps Projects",
-      "purpose": "Regrouper les projets infra : stockage cloud, Kubernetes, monitoring/observabilité, automatisation.",
+      "purpose": "Projets infrastructure : stockage, K8s, monitoring.",
       "parent": "Project Portfolio",
-      "page_notes": [
-        {
-          "content": "Inclure : SUPFile, K8S, Zabbix (K8S/VM)."
-        }
-      ]
+      "content": "## Projets inclus\n\n- **SUPFile** — stockage cloud sécurisé multi-DC\n- **K8S Fleetman** — cluster Kubernetes HA\n- **Zabbix K8S** — supervision cluster\n- **Zabbix VM** — supervision Hyper-V\n\n## Compétences démontrées\n\n- Haute disponibilité (Galera, HAProxy)\n- Orchestration (Kubernetes, Docker)\n- Stockage distribué (GlusterFS, EBS, S3)\n- Observabilité (Prometheus, Grafana, Zabbix)\n- Sécurité infra (SELinux, AppArmor, IAM, VPC)"
     },
     {
       "title": "SUPFile — Secure Cloud File Storage",
-      "purpose": "Décrire SUPFile : stockage sécurisé, flux, auth, déploiement.",
+      "purpose": "Stockage sécurisé, flux upload/download, auth, déploiement.",
       "parent": "Cloud & DevOps Projects",
-      "page_notes": [
-        {
-          "content": "Repo : https://github.com/MEVENGUE/SUPFile-app | Démo : https://supfile-webapp.vercel.app. Ajouter schéma séquence upload/download, sécurité (auth/ACL), roadmap."
-        }
-      ]
+      "content": "## Pitch\n\nSolution de stockage de fichiers cloud sécurisée et hybride, déployée en architecture multi-datacenter active/active.\n\n## Problème résolu\n\nCentraliser le stockage de fichiers avec haute disponibilité, réplication et monitoring — sans point de défaillance unique.\n\n## Architecture\n\n```\nClient → HAProxy → FastAPI (API) → Galera (MariaDB) + GlusterFS (fichiers)\n                    ↓\n              Prometheus → Grafana\n```\n\n## Liens\n\n- Repo : https://github.com/MEVENGUE/SUPFile-app\n- Démo : https://supfile-webapp.vercel.app\n\n## Stack\n\nFastAPI, React, Kubernetes, Galera Cluster, GlusterFS, HAProxy, Prometheus, Grafana\n\n## Sécurité\n\nAuth utilisateur, ACL fichiers, HTTPS, secrets externalisés.\n\n## Roadmap\n\n- [ ] Chiffrement at-rest\n- [ ] Versioning fichiers\n- [ ] Quotas par utilisateur\n- [ ] Audit logs complets"
     },
     {
       "title": "Kubernetes Fleetman Cluster",
-      "purpose": "Documenter le projet Kubernetes : cluster, réseau, stockage, déploiements.",
+      "purpose": "Cluster K8s : réseau, stockage, déploiements microservices.",
       "parent": "Cloud & DevOps Projects",
-      "page_notes": [
-        {
-          "content": "Repo : https://github.com/MEVENGUE/K8S. Ajouter : manifests, namespaces, probes, persistance, ingress, checklist prod-like (RBAC, quotas, autoscaling)."
-        }
-      ]
+      "content": "## Pitch\n\nCluster Kubernetes haute disponibilité hébergeant les microservices Fleetman avec persistance et networking complet.\n\n## Problème résolu\n\nApprendre et démontrer le déploiement production-like de microservices sur K8s : StatefulSets, ConfigMaps, probes, ingress.\n\n## Architecture\n\n- Namespaces dédiés par service\n- StatefulSets pour bases de données (MongoDB)\n- Deployments pour services stateless (Spring Boot)\n- Ingress Nginx pour routage HTTP\n- PersistentVolumes pour données\n- Liveness/Readiness probes\n\n## Liens\n\n- Repo : https://github.com/MEVENGUE/K8S\n\n## Checklist prod-like\n\n- [x] RBAC basique\n- [x] Health probes\n- [x] Volumes persistants\n- [x] Ingress\n- [ ] HPA (autoscaling)\n- [ ] Network policies\n- [ ] Resource quotas"
     },
     {
       "title": "Observability with Zabbix",
-      "purpose": "Supervision Zabbix (K8S + VM) : discovery, dashboards, alerting, procédures.",
+      "purpose": "Supervision Zabbix K8S + VM : discovery, dashboards, alerting.",
       "parent": "Cloud & DevOps Projects",
-      "page_notes": [
-        {
-          "content": "Repo : https://github.com/MEVENGUE/supervision-Projet-K8S-Zabbix. Inclure templates, items/triggers, dashboards, onboarding d’un node, dépannage."
-        }
-      ]
+      "content": "## Pitch\n\nBrique de supervision complète autour du cluster Kubernetes et des VMs Hyper-V via Zabbix.\n\n## Problème résolu\n\nVisibilité temps réel sur l'état des nodes, pods, services et VMs avec alerting proactif.\n\n## Contenu\n\n- Templates Zabbix personnalisés\n- Items et triggers pour métriques clés\n- Dashboards de supervision\n- Procédures d'onboarding d'un nouveau node\n- Runbook de dépannage\n\n## Liens\n\n- Repo K8S : https://github.com/MEVENGUE/supervision-Projet-K8S-Zabbix\n- Repo VM : https://github.com/MEVENGUE/zabbix-supervision\n\n## Stack\n\nZabbix, Kubernetes, Hyper-V, Prometheus (complémentaire)"
     },
     {
       "title": "AI, RAG & Agents Projects",
-      "purpose": "Regrouper les projets IA : assistants RAG, agents, raisonnement, automatisation.",
+      "purpose": "Assistants RAG, agents autonomes, raisonnement.",
       "parent": "Project Portfolio",
-      "page_notes": [
-        {
-          "content": "Inclure : SUPINFO MentorGPT (RAG), Graph Reasoning Engine."
-        }
-      ]
+      "content": "## Projets inclus\n\n- **SUPINFO MentorGPT** — assistant académique RAG\n- **Graph Reasoning Engine** — agents par raisonnement sur graphes\n- **4CHGM** — plateforme change management IA\n\n## Compétences démontrées\n\n- Ingestion et chunking de documents\n- Embeddings et recherche vectorielle (ChromaDB)\n- Pipelines RAG avec LLM (OpenAI)\n- Auth OAuth et gestion de rôles\n- Agents autonomes et raisonnement structurel"
     },
     {
       "title": "SUPINFO MentorGPT — Academic RAG Assistant",
-      "purpose": "Décrire l’assistant IA : ingestion docs, recherche sémantique, chat, auth, dashboard.",
+      "purpose": "Assistant IA : ingestion, recherche sémantique, chat, auth, dashboard.",
       "parent": "AI, RAG & Agents Projects",
-      "page_notes": [
-        {
-          "content": "Repo : https://github.com/MEVENGUE/SUPINFO-MentorGPT | Démo : https://supinfo-mentor-ai.vercel.app. Ajouter schéma RAG, endpoints, sécurité (OAuth/roles), roadmap."
-        }
-      ]
+      "content": "## Pitch\n\nAssistant IA académique intelligent pour SUPINFO alimenté par RAG sur 99+ documents institutionnels.\n\n## Problème résolu\n\nPermettre aux étudiants de trouver rapidement des informations dans la documentation SUPINFO via un chat intelligent.\n\n## Architecture RAG\n\n```\nDocuments → Chunking → Embeddings → ChromaDB\n                                        ↓\nUtilisateur → Chat UI → FastAPI → Retrieval → LLM → Réponse\n```\n\n## Liens\n\n- Repo : https://github.com/MEVENGUE/SUPINFO-MentorGPT\n- Démo : https://supinfo-mentor-ai.vercel.app\n\n## Stack\n\nNext.js, FastAPI, TypeScript, Python, ChromaDB, OpenAI, OAuth\n\n## Sécurité\n\nOAuth, rôles admin/utilisateur, rate limiting.\n\n## Roadmap\n\n- [ ] Multi-langue (FR/EN)\n- [ ] Feedback utilisateur sur les réponses\n- [ ] Analytics dashboard\n- [ ] Fine-tuning sur corpus SUPINFO"
     },
     {
       "title": "Graph Reasoning Engine",
-      "purpose": "Documenter le framework de raisonnement structurel : core engine, visualisation, exercices.",
+      "purpose": "Framework raisonnement structurel : engine, visualisation, exercices.",
       "parent": "AI, RAG & Agents Projects",
-      "page_notes": [
-        {
-          "content": "Repo : https://github.com/MEVENGUE/Graph-Reasoning-Engine. Inclure structure des dossiers, serveur de visualisation, comment contribuer."
-        }
-      ]
+      "content": "## Pitch\n\nFramework de formation et benchmark pour agents autonomes basés sur le raisonnement structurel par graphes.\n\n## Problème résolu\n\nLes décisions des agents émergent de la structure du graphe et de la convergence des signaux, pas de règles explicites — inspiré de arXiv:2504.17033.\n\n## Contenu\n\n- Core engine de raisonnement\n- Serveur de visualisation interactif\n- 6 exercices DevOps complets\n- Benchmark et métriques\n\n## Liens\n\n- Repo : https://github.com/MEVENGUE/Graph-Reasoning-Engine\n\n## Stack\n\nPython, Graph Theory, Agents Autonomes\n\n## Contribution\n\nVoir CONTRIBUTING.md dans le repo pour la structure des dossiers et les guidelines."
     },
     {
       "title": "3D & Immersive Web Projects",
-      "purpose": "Regrouper les projets web 3D : Three.js/R3F, interactions, WebXR.",
+      "purpose": "Projets web 3D : Three.js, R3F, interactions, WebXR.",
       "parent": "Project Portfolio",
-      "page_notes": [
-        {
-          "content": "Inclure : 3D Canvas (hand tracking + catalogue GLB + chat)."
-        }
-      ]
+      "content": "## Projets inclus\n\n- **3D Canvas** — manipulation 3D par gestes, catalogue GLB, chat IA\n- **Virtual Mouse** — contrôle souris par computer vision\n\n## Compétences démontrées\n\n- React Three Fiber et Drei\n- Hand tracking MediaPipe\n- Gestion d'état (Zustand)\n- Assets 3D sur Cloudflare R2\n- UI futuriste (Tailwind, Framer Motion)"
     },
     {
       "title": "3D Canvas — Interact with the Future",
-      "purpose": "Décrire l’expérience 3D : contrôle gestuel, viewer 3D, assets, UI futuriste.",
+      "purpose": "Expérience 3D : contrôle gestuel, viewer, assets, UI futuriste.",
       "parent": "3D & Immersive Web Projects",
-      "page_notes": [
-        {
-          "content": "Repo : https://github.com/MEVENGUE/3D-Canvas-presentation | Démo : https://3-d-canvas-app.vercel.app. Stack : Next.js, R3F, Drei, Zustand, Tailwind, Framer Motion. Assets : Cloudflare R2."
-        }
-      ]
+      "content": "## Pitch\n\nApplication web immersive pour explorer et manipuler des modèles 3D avec hand tracking ou souris — interface style Apple Vision.\n\n## Problème résolu\n\nDémontrer une expérience 3D web premium accessible (gestes + souris) avec catalogue d'assets et assistant IA intégré.\n\n## Architecture\n\n```\nNext.js App → R3F Canvas → MediaPipe Hands → Modèles GLB (R2)\n                    ↓\n              Chat IA (API)\n```\n\n## Liens\n\n- Repo : https://github.com/MEVENGUE/3D-Canvas-presentation\n- Démo : https://3-d-canvas-app.vercel.app\n\n## Stack\n\nNext.js, Three.js, React Three Fiber, Drei, Zustand, Tailwind, Framer Motion, MediaPipe, Cloudflare R2\n\n## Roadmap\n\n- [ ] WebXR support\n- [ ] Multi-utilisateur\n- [ ] Éditeur de scènes\n- [ ] Plus de modèles dans le catalogue"
     },
     {
       "title": "Football Analytics Projects",
-      "purpose": "Regrouper les projets football : data viz, scouting, modèles et outils IA.",
+      "purpose": "Data viz football, scouting, modèles IA.",
       "parent": "Project Portfolio",
-      "page_notes": [
-        {
-          "content": "Inclure : X-scout (IA + scraping + globe 3D), Radar Coach (profil tactique)."
-        }
-      ]
+      "content": "## Projets inclus\n\n- **X-Scout** — dashboard scouting IA avec globe 3D\n- **Radar Tactique** — profils d'entraîneurs en radar\n\n## Vision\n\nTransformer la passion football en produits data : dashboards interactifs, assistants scouting, visualisations tactiques exportables."
     },
     {
       "title": "X-scout — AI Scouting Dashboard",
-      "purpose": "Documenter X-scout : scraping, enrichissement IA, visualisation 3D, rapports.",
+      "purpose": "Scraping, enrichissement IA, visualisation 3D, rapports.",
       "parent": "Football Analytics Projects",
-      "page_notes": [
-        {
-          "content": "Repo : https://github.com/MEVENGUE/Outils-IA-pour-scouting-football- | Démo : https://scoutfootballai-siteweb.vercel.app. Inclure architecture, limites (anti-bot), roadmap (caching, analytics)."
-        }
-      ]
+      "content": "## Pitch\n\nPrototype de site web d'outils de scouting augmentés par IA : analyse, enrichissement LLM, visualisation globe 3D.\n\n## Problème résolu\n\nCentraliser l'analyse de joueurs avec enrichissement automatique et visualisation immersive.\n\n## Architecture\n\nScraping → Enrichissement LLM → Base données → Dashboard Next.js → Globe 3D\n\n## Liens\n\n- Repo : https://github.com/MEVENGUE/Outils-IA-pour-scouting-football-\n- Démo : https://scoutfootballai-siteweb.vercel.app\n\n## Limites connues\n\n- Anti-bot sur certaines sources\n- Données non temps réel\n\n## Roadmap\n\n- [ ] Cache intelligent\n- [ ] Analytics avancées\n- [ ] Export rapports PDF\n- [ ] API publique"
     },
     {
       "title": "Radar Tactique — Coach Profile",
-      "purpose": "Documenter le radar tactique : axes, scoring, génération, exemples.",
+      "purpose": "Radar tactique : axes, scoring, génération, exemples.",
       "parent": "Football Analytics Projects",
-      "page_notes": [
-        {
-          "content": "Repo : https://github.com/MEVENGUE/Radar-Tactique-Profil-Coach-Football. Inclure méthodologie, exemples, export PNG/PDF, templates."
-        }
-      ]
+      "content": "## Pitch\n\nGénération de diagrammes radar tactiques pour représenter le profil d'un entraîneur sur plusieurs axes.\n\n## Problème résolu\n\nVisualiser rapidement les forces/faiblesses tactiques d'un coach de manière comparable et exportable.\n\n## Méthodologie\n\n- Définition d'axes tactiques (pressing, possession, transitions, etc.)\n- Scoring normalisé 0-100 par axe\n- Génération matplotlib/plotly\n- Export PNG et PDF\n\n## Liens\n\n- Repo : https://github.com/MEVENGUE/Radar-Tactique-Profil-Coach-Football\n\n## Roadmap\n\n- [ ] Templates personnalisables\n- [ ] Comparaison multi-coachs\n- [ ] Interface web interactive"
     },
     {
       "title": "Computer Vision & Interaction Projects",
-      "purpose": "Documenter les prototypes CV (hand tracking, interfaces gestuelles) avec démos et learnings.",
+      "purpose": "Prototypes CV : hand tracking, interfaces gestuelles.",
       "parent": "Project Portfolio",
-      "page_notes": [
-        {
-          "content": "Inclure Virtual Mouse et autres expérimentations liées aux interactions."
-        }
-      ]
+      "content": "## Projets inclus\n\n- **Virtual Mouse** — contrôle souris par gestes Python/OpenCV\n- Intégration hand tracking dans **3D Canvas** (MediaPipe)\n\n## Learnings\n\n- Latence critique pour l'UX gestuelle\n- Calibration caméra nécessaire\n- Fallback souris/clavier indispensable\n- MediaPipe plus robuste qu'OpenCV seul pour les mains"
     },
     {
       "title": "Academic Projects Collection (Projet_ING)",
-      "purpose": "Présenter Projet_ING comme collection multi-domaines (IoT, cyber, cloud, data, gestion de projet).",
+      "purpose": "Collection multi-domaines : IoT, cyber, cloud, data.",
       "parent": "Project Portfolio",
-      "page_notes": [
-        {
-          "content": "Repo : https://github.com/MEVENGUE/Projet_ING. Index par dossiers + tags + best-of (3 à 5 sous-projets)."
-        }
-      ]
+      "content": "## Pitch\n\nCollection de projets académiques couvrant IoT, cybersécurité, cloud, data et gestion de projet.\n\n## Structure\n\nOrganisé par dossiers thématiques avec tags. Best-of : 3 à 5 sous-projets mis en avant.\n\n## Liens\n\n- Repo : https://github.com/MEVENGUE/Projet_ING\n\n## Domaines couverts\n\nIoT, cybersécurité, cloud computing, data engineering, gestion de projet, réseaux."
     },
     {
       "title": "Skills Map & Tech Stack",
-      "purpose": "Cartographier les compétences avec preuves (liens projets).",
-      "page_notes": [
-        {
-          "content": "Compétence → outils → projets preuves. Cloud/DevOps (K8S/Zabbix/SUPFile), Backend (Python/FastAPI), Front (React/Next/TS), IA (RAG/agents), 3D (Three.js/R3F)."
-        }
-      ]
+      "purpose": "Cartographie compétences avec preuves projet.",
+      "content": "## Carte des compétences\n\n| Compétence | Niveau | Outils | Preuves |\n|------------|--------|--------|--------|\n| Cloud Architecture | 90% | AWS, Azure, GCP | SUPFile, K8S |\n| DevOps / CI-CD | 95% | GitHub Actions, Docker | K8S, SUPFile |\n| Infrastructure as Code | 85% | Terraform, K8s manifests | K8S |\n| Observabilité | 80% | Prometheus, Grafana, Zabbix | Zabbix, SUPFile |\n| IA & Data Engineering | 75% | RAG, ChromaDB, FastAPI | MentorGPT, X-Scout |\n| Frontend & 3D | 80% | Next.js, Three.js | 3D Canvas, MentorGPT |\n| Computer Vision | 70% | MediaPipe, OpenCV | 3D Canvas, Virtual Mouse |\n| Football Analytics | 75% | Python, LLM, Data Viz | X-Scout, Radar |\n\n## Stack complète\n\nCloud : AWS, Azure, GCP, Kubernetes, Docker, Terraform\nBackend : Python, FastAPI, PostgreSQL, MongoDB\nFrontend : TypeScript, Next.js, React, Three.js, Tailwind\nDevOps : GitHub Actions, Prometheus, Grafana, Zabbix\nIA : OpenAI, ChromaDB, RAG, PyTorch, Colab"
     },
     {
       "title": "Workflow & Tooling",
-      "purpose": "Décrire le workflow : Git/GitHub, conventions, docs, CI, outils.",
+      "purpose": "Workflow Git, conventions, docs, CI, outils.",
       "parent": "Skills Map & Tech Stack",
-      "page_notes": [
-        {
-          "content": "Standard : README → docs/ → diagrams/ → scripts/. Outils : Cursor, Colab, NotebookLM, Vercel/Railway. Qualité : lint, format, tests basiques."
-        }
-      ]
+      "content": "## Structure standard par repo\n\n```\nrepo/\n├── README.md          # Pitch + quickstart\n├── docs/              # Architecture, guides\n├── diagrams/          # Schémas (Mermaid, PNG)\n├── scripts/           # Automatisation\n├── .env.example       # Variables requises\n└── CHANGELOG.md       # Historique\n```\n\n## Outils quotidiens\n\n- **IDE** : Cursor, VS Code\n- **IA** : ChatGPT, Claude, NotebookLM\n- **Dev** : Colab, Docker, kubectl\n- **Deploy** : Vercel, Railway, K8s\n- **Docs** : Markdown, Mermaid, DeepWiki\n\n## Qualité\n\n- Lint et format (ESLint, Prettier, Ruff)\n- Tests basiques sur les APIs\n- CI GitHub Actions quand pertinent"
     },
     {
       "title": "Security, Privacy & Compliance",
-      "purpose": "Expliquer l’approche sécurité : principes, contrôles, liens RGPD/ISO27001.",
-      "page_notes": [
-        {
-          "content": "Règles : secrets, auth, gestion accès, journalisation, sauvegardes. Appliquer à SUPFile et MentorGPT. Ajouter checklist sécurité (OWASP, infra, data)."
-        }
-      ]
+      "purpose": "Approche sécurité : principes, contrôles, RGPD, ISO 27001.",
+      "content": "## Principes\n\n1. **Secrets** — jamais dans le code, toujours via env/secrets manager\n2. **Auth** — OAuth, JWT, gestion des rôles\n3. **Accès** — principe du moindre privilège (RBAC, ACL)\n4. **Journalisation** — audit logs sur actions sensibles\n5. **Sauvegardes** — BorgBackup, snapshots, réplication\n\n## Checklist sécurité\n\n### Application (OWASP)\n- [ ] Validation des entrées\n- [ ] Protection CSRF/XSS\n- [ ] Rate limiting\n- [ ] HTTPS partout\n\n### Infrastructure\n- [ ] Network policies K8s\n- [ ] SELinux / AppArmor\n- [ ] IAM least privilege\n- [ ] Monitoring et alerting\n\n### Data (RGPD)\n- [ ] Minimisation des données\n- [ ] Consentement utilisateur\n- [ ] Droit à l'effacement\n- [ ] Chiffrement in-transit et at-rest\n\n## Projets concernés\n\nSUPFile (ACL, auth), MentorGPT (OAuth, données académiques), tous les déploiements publics."
     },
     {
       "title": "Contact, Collaboration & Links",
-      "purpose": "Donner les liens de contact, et expliquer comment collaborer (issues/PRs) + disponibilités.",
-      "page_notes": [
-        {
-          "content": "Site (Contact) : https://mevenguefranck-siteweb.vercel.app. Ajouter CV PDF et disponibilité. Inclure guidelines contributions : templates issue/PR, conventions, guide d’exécution local par projet."
-        }
-      ]
+      "purpose": "Contact, collaboration open source, disponibilités.",
+      "content": "## Contact\n\n- **Email** : mevengue.franck@supinfo.com\n- **Site** : https://mevenguefranck-siteweb.vercel.app/\n- **GitHub** : https://github.com/MEVENGUE\n- **LinkedIn** : https://www.linkedin.com/in/mevengue-franck/\n\n## Disponibilité\n\n🟢 Disponible pour alternance, stage ou mission technique en Île-de-France.\n\nDomaines : Cloud, DevOps, Sécurité, IA, Data.\n\n## Collaboration open source\n\n- Issues et PRs bienvenues sur tous mes projets\n- Templates : décrire le problème, étapes de reproduction, environnement\n- Conventions : branches `feature/`, commits conventionnels\n\n## Guide d'exécution local\n\nChaque repo a son propre README avec instructions. En général :\n\n```bash\ngit clone <repo-url>\ncd <repo>\ncp .env.example .env\n# Installer dépendances (npm install / pip install -r requirements.txt)\n# Lancer (npm run dev / uvicorn main:app --reload)\n```\n\n## CV\n\nDisponible sur demande via le formulaire contact du site portfolio."
     }
   ]
 }
